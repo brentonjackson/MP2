@@ -7,7 +7,7 @@ After=network.target
 Environment=
 Type=simple
 User=ubuntu
-ExecStart=/usr/bin/python3 /home/ubunut/MP2/serve.py
+ExecStart=/usr/bin/python3 /home/ubuntu/MP2/serve.py
 Restart=always
 
 [Install]
