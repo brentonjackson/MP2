@@ -13,7 +13,7 @@ def handle_request():
 
     elif request.method == 'POST':
         # Create a separate process to run "stress_cpu.py"
-        subprocess.Popen(['python3', 'stress_cpu.py'])
+        subprocess.Popen(['python3', '/home/ubuntu/MP2/stress_cpu.py'])
         return 'Stress CPU process started\n'
 
 if __name__ == '__main__':
