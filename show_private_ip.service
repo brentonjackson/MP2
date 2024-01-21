@@ -1,0 +1,14 @@
+[Unit]
+Description=serve.py - show private ip of host
+Documentation=
+After=network.target
+
+[Service]
+Environment=
+Type=simple
+User=ubuntu
+ExecStart=/usr/bin/python3 /home/ubunut/MP2/serve.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
