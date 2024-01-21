@@ -8,4 +8,5 @@ sudo apt-get install git -y
 cd /home/ubuntu
 git clone https://github.com/brentonjackson/MP2.git
 cd /home/ubuntu/MP2
-python3 serve.py
+sudo mv show_private_ip.service /lib/systemd/system/
+sudo systemctl start show_private_ip.service
