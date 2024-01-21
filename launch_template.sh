@@ -10,3 +10,4 @@ git clone https://github.com/brentonjackson/MP2.git
 cd /home/ubuntu/MP2
 sudo mv show_private_ip.service /lib/systemd/system/
 sudo systemctl start show_private_ip.service
+sudo systemctl enable show_private_ip
